@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/holo_orange_dark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CS 275 LAB3"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/titleText" android:layout_gravity="center_horizontal"
+        android:textSize="40dp"
+        android:textColor="#ffff0b0d" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLAYER1 - &apos;X&apos;"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLAYER2 - &apos;O&apos;"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/newGameBtn" android:layout_column="0" android:layout_gravity="center_horizontal"
+        android:onClick="newGame"
+        android:textSize="18dp" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/tableLayout">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:id="@+id/topLeft" android:layout_column="1" android:width="100dp" android:height="100dp"
+                android:textSize="40dp"
+                android:shadowColor="#fffff2fe" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button" android:layout_column="2" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button1" android:layout_column="3" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button2" android:layout_column="1" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button3" android:layout_column="2" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button4" android:layout_column="3" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button5" android:layout_column="1" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button6" android:layout_column="2" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O"
+                android:id="@+id/button7" android:layout_column="3" android:width="100dp" android:height="100dp"
+                android:textSize="40dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
